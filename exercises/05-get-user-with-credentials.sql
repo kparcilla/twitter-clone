@@ -13,3 +13,5 @@
 --     result : SOME AWESOME QUERY password = 'arnellebalane@gmail.com';
 --
 -- Write your query below:
+SELECT * FROM users WHERE (email = '{{identifier}}' or username = '{{identifier}}')
+and password = '{{password}}';
